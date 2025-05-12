@@ -12,7 +12,7 @@ class Skan < Formula
   depends_on "sops"
 
   def install
-    bin.install "skan.sh" => "skan"
+    bin.install "skan.zsh" => "skan"
   end
 end
 
