@@ -6,7 +6,6 @@ class Encryptify < Formula
 
   depends_on "fzf"
   depends_on "zx"
-  depends_on "neovide"
 
   def install
     bin.install "encryptify.mjs" => "enc"
