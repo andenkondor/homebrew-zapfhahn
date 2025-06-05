@@ -1,8 +1,8 @@
 class Encryptify < Formula
   desc "Gpg meets fzf"
-  version "0.2.0"
-  url "https://github.com/andenkondor/encryptify/releases/download/v0.2.0/encryptify.tar.gz"
-  sha256 "10a34e55b56d5f63b8986a465ba16bf168b622ad1c33f61276e454629d7ef589"
+  version "0.2.1"
+  url "https://github.com/andenkondor/encryptify/releases/download/v0.2.1/encryptify.tar.gz"
+  sha256 "15a25f637c884f15ceb04134a408ca1e438e6ed3f3a4d148f74fc41bc9e895da"
 
   depends_on "fzf"
   depends_on "zx"
