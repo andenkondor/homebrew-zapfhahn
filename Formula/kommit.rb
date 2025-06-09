@@ -1,8 +1,8 @@
 class Kommit < Formula
   desc "Easily write conventional commit messages"
-  version "0.3.2"
-  url "https://github.com/andenkondor/kommit/releases/download/v0.3.2/kommit.tar.gz"
-  sha256 "c39d66370106358012f92bfcb8403a433764dd987a31d33776f8bfe98c3ade56"
+  version "0.3.3"
+  url "https://github.com/andenkondor/kommit/releases/download/v0.3.3/kommit.tar.gz"
+  sha256 "2c14a4eaa947dcf0cb2e276ffac6aee02b66d239f37498d2cdd687b1b567b670"
 
   depends_on "git"
   depends_on "fzf"
