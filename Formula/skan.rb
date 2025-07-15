@@ -7,9 +7,8 @@ class Skan < Formula
   depends_on "andenkondor/zapfhahn/sops-opener"
   depends_on "bat"
   depends_on "fzf"
-  depends_on "neovim"
   depends_on "ripgrep"
-  depends_on "sops"
+  depends_on "zx"
 
   def install
     bin.install "skan.zsh" => "skan"
