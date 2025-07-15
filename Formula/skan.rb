@@ -11,7 +11,7 @@ class Skan < Formula
   depends_on "zx"
 
   def install
-    bin.install "skan.zsh" => "skan"
+    bin.install "skan.mjs" => "skan"
   end
 end
 
