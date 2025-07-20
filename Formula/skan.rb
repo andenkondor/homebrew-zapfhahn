@@ -1,8 +1,8 @@
 class Skan < Formula
   desc "Fzf wrapper around ripgrep"
-  version "0.2.3"
-  url "https://github.com/andenkondor/skan/releases/download/v0.2.3/skan.tar.gz"
-  sha256 "e1f97bfa8517b34620922cb7247558f05f254e356e7b9a0124a8426cd5c06628"
+  version "0.2.4"
+  url "https://github.com/andenkondor/skan/releases/download/v0.2.4/skan.tar.gz"
+  sha256 "aa45300d20d5aae4e97805301890db6e2e2bc41e1455a313f54878b11f2a837d"
 
   depends_on "andenkondor/zapfhahn/sops-opener"
   depends_on "bat"
