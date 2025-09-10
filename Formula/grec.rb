@@ -1,8 +1,8 @@
 class Grec < Formula
   desc "[g]it [rec]ent - a cli for showing the latest checked out branches in a repository. Additionally provides a shortcut for checking out"
-  version "0.2.0"
-  url "https://github.com/andenkondor/grec/releases/download/v0.2.0/grec-macos-amd64.tar.gz"
-  sha256 "a10ffecb17fee712a5a0020c10dc7a252b3a4b28d2fafbfeddf7caa9497f866a"
+  version "0.3.0"
+  url "https://github.com/andenkondor/grec/releases/download/v0.3.0/grec-macos-amd64.tar.gz"
+  sha256 "25630544da9cc610804c40a7cf5e1efe71db9a1bef7042d45f8fa26d57c64487"
 
   def install
     bin.install "grec"
