@@ -7,6 +7,7 @@ class Skan < Formula
   depends_on "andenkondor/zapfhahn/sops-opener"
   depends_on "bat"
   depends_on "fzf"
+  depends_on "neovim"
   depends_on "ripgrep"
   depends_on "zx"
 
