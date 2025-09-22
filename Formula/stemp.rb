@@ -1,8 +1,8 @@
 class Stemp < Formula
   desc "Easily handle timestamps"
-  version "0.0.1"
-  url "https://github.com/andenkondor/stemp/releases/download/v0.0.1/stemp.tar.gz"
-  sha256 "cbc06166a298327a325510c3789fa9dc2106c4a21fca00c69758545a5ad21f26"
+  version "0.0.3"
+  url "https://github.com/andenkondor/stemp/releases/download/v0.0.3/stemp.tar.gz"
+  sha256 "1d69588dce4e47f6402338b0cba4d40399d086ad6d3efeeada30dd44c3e7b74f"
 
   def install
     bin.install "stemp" => "stemp"
