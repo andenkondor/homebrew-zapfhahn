@@ -1,5 +1,9 @@
 class Kqool < Formula
   desc "Interactively build kql queries"
+  version "tbd"
+  url "tbd"
+  sha256 "tbd"
+
 
   depends_on "fzf"
   depends_on "zx"
@@ -9,4 +13,3 @@ class Kqool < Formula
     bin.install "kqool.mjs" => "kqool"
   end
 end
-
