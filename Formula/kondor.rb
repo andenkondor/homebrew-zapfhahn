@@ -5,7 +5,6 @@ class Kondor < Formula
   sha256 "b0a1973806c94fbce8b07f641140f16b0eeb41fa667b15e3596a09e759cb3ab1"
 
   depends_on "oven-sh/bun/bun"
-  depends_on "jq"
   depends_on "ripgrep"
   depends_on "neovim"
   depends_on "bat"
