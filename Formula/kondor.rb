@@ -11,7 +11,11 @@ class Kondor < Formula
   depends_on "fzf"
 
   def install
-    bin.install "kondor" => "kd"
+    libexec.install Dir["*"]
+    (bin/"kd").write <<~EOS
+      #!/bin/bash
+      exec "#{Formula["oven-sh/bun/bun"].opt_bin}/bun" run "#{libexec}/index.js" "$@"
+    EOS
   end
 end
 
