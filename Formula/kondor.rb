@@ -1,8 +1,8 @@
 class Kondor < Formula
   desc "Full-text search"
-  version "0.9.4"
-  url "https://github.com/andenkondor/kondor/releases/download/v0.9.4/kondor.tar.gz"
-  sha256 "0995bee3f3652236702a85cbede1dbbf51622398a980490d46204c2351a2bd4c"
+  version "0.9.5"
+  url "https://github.com/andenkondor/kondor/releases/download/v0.9.5/kondor.tar.gz"
+  sha256 "65622c089179c84c45b813a2908ec9fe8707ed1b11e69a16e91cc4b59a3ef42e"
 
   depends_on "oven-sh/bun/bun"
   depends_on "ripgrep"
