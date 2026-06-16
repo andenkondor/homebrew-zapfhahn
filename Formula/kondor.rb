@@ -1,19 +1,19 @@
 class Kondor < Formula
   desc "Full-text search"
-  version "0.12.2"
+  version "0.12.3"
 
   on_macos do
-    url "https://github.com/andenkondor/kondor/releases/download/v0.12.2/kondor-darwin-arm64.tar.gz"
-    sha256 "45b934639071708957d5a616b58e0c25672c6bc4214ab371b21e8a2ffb96f6d5"
+    url "https://github.com/andenkondor/kondor/releases/download/v0.12.3/kondor-darwin-arm64.tar.gz"
+    sha256 "0eb6364c608124d44434554284127999f1dfbc4cb0c4b9bcb660be73784d518a"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/andenkondor/kondor/releases/download/v0.12.2/kondor-linux-arm64.tar.gz"
-      sha256 "bcfee0c6dc9a93f196f2dec302a7ade58cf66ae0e981423c62e6339258a64be5"
+      url "https://github.com/andenkondor/kondor/releases/download/v0.12.3/kondor-linux-arm64.tar.gz"
+      sha256 "e83efd00d7c69ac360f69cc52756114f8db58cd73b95a92f7d55c4c5356c6318"
     else
-      url "https://github.com/andenkondor/kondor/releases/download/v0.12.2/kondor-linux-x64.tar.gz"
-      sha256 "d9164fbdccfdbad2955a187e825ae06b31f38fb0aaead78ae1c87c5aa6d6794a"
+      url "https://github.com/andenkondor/kondor/releases/download/v0.12.3/kondor-linux-x64.tar.gz"
+      sha256 "8f76df2813d8801942312cc87cd694338bc7f7edca3e4a82e29e90987ad7071f"
     end
   end
 
